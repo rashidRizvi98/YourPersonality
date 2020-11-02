@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textViewT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Large text"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_weight="0.04">
+
+            <RadioButton
+                android:id="@+id/radioT1"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strongly Agree"
+                android:textColor="@color/colorWhite"/>
+
+            <RadioButton
+                android:id="@+id/radioT2"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"
+                android:textColor="@color/colorWhite"/>
+
+            <RadioButton
+                android:id="@+id/radioT3"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Idea"
+                android:textColor="@color/colorWhite"/>
+
+
+            <RadioButton
+                android:id="@+id/radioT4"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"
+                android:textColor="@color/colorWhite"/>
+
+
+            <RadioButton
+                android:id="@+id/radioT5"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strongly Disagree"
+                android:textColor="@color/colorWhite"/>
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
